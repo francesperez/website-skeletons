@@ -1,0 +1,26 @@
+.shopnow {
+    background-color: #212121;
+    color: #F8EEE2;
+    width: 100%;
+    border-radius: 15px;
+    padding: 30px
+}
+.shopnow:hover {
+    background-color: #F8EEE2;
+    color: #212121
+}
+
+
+.learnmore {
+    border-color: #212121;
+    background-color: #F8EEE2;
+    color: #212121;
+    width: 100%;
+    border-radius: 15px;
+    padding: 30px
+}
+
+.learnmore:hover {
+    background-color: #212121;
+    color: #F8EEE2
+}
