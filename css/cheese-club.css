@@ -25,6 +25,11 @@ body{
 .navbar-brand:hover{
     color: #fffad7;
 }
+ul{
+    margin: 0;
+    list-style: none;
+    color: #fffad7;
+}
 .col--subheading-wine{
     background-color: #F9D319;
     width: max-content;
