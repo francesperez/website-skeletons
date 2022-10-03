@@ -1,5 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
 *{
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+body{
+    background-color: #F7EBDF;
+    padding: 20px;
+}
+.row{
+    height: 100%;
+}
+.navbar{
+    background-color: #01021e;
+    border-radius: 15px;
+    margin-bottom: 42%;
+}
+.navbar-brand{
+    font-family: 'DM Serif Text', serif;
+    font-size: 1.7em;
+    color: #fffad7;
+    margin-left: 27px;
+}
+.navbar-brand:hover{
+    color: #fffad7;
+}
+.col--subheading-wine{
+    background-color: #F9D319;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+.col--backgroundImage-wine{
+    background: url("../img/img_1.png");
+    border-radius: 15px;
+    background-size: cover
+}
+.col--mainHeading-wine{
+    font-family: 'DM Serif Text', serif;
+    font-size: 5em;
+}
+p{
+    font-size: 1.5em;
+}
+
+.row--button{
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: solid #01021e 1px;
+}
+#button-shopNow{
+    background-color: #01021e;
+    color: #fffad7;
+}
+#button-learnMore{
+    background-color: #00000000;
 }
