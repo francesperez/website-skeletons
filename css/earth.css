@@ -1,0 +1,57 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /*background-color: black;*/
+    background: url("https://wallpaperaccess.com/full/19602.jpg");
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;}
+a{
+    text-decoration: none;
+}
+h1{
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    font-size: 15em;
+    background-color: #01021e22;
+    backdrop-filter: blur(1.5px);
+
+}
+navbar{
+    background-color: #01021e33;
+}
+.navbar-div--left ul{
+    list-style: none;
+}
+.navbar-div--left li a:hover{
+    color: #E1E1E1;
+    text-decoration: underline;
+}
+navbar a{
+    color: #535353;
+}
+
+#main-starter{
+    color: black;
+    background-color: #E1E1E1;
+    padding: .5em 1em .5em 1em;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 50px;
+    left: 47%;
+}
+
+#login{
+    color: black;
+    background-color: #E1E1E1;
+    padding: .5em 1em .5em 1em;
+    border-radius: 20px;
+}
