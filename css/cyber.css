@@ -1,0 +1,39 @@
+.btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 50%;
+    /*position: absolute;*/
+    right: 550px;
+    color: #020202;
+    background-color:transparent;
+    pointer-events: painted;
+    background-image: url("/img/MagnifyingGlass.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-nav {
+    font-family: 'Poppins', sans-serif;
+}
+
+.company {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.first-half {
+    color: #ff26b7;
+}
+
+.half {
+    color: #2f2fff;
+}
+
+.cyber {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 200px;
+    line-height: .8;
+}
+
