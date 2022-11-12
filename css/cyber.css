@@ -1,26 +1,19 @@
-.btn-search{
-    width: 50px;
-    height: 50px;
-    border-style: none;
-    cursor: pointer;
-    border-radius: 50%;
-    /*position: absolute;*/
-    right: 550px;
-    color: #020202;
-    background-color:transparent;
-    pointer-events: painted;
-    background-image: url("/img/MagnifyingGlass.png");
-    background-repeat: no-repeat;
-    background-position: center;
+@import url('https://css.gg/add.css');
+@import url('https://css.gg/search.css');
+
+.gg-search{
+    margin-top: 7px;
 }
 
-.navbar-nav {
+.navbar-nav, .rs {
     font-family: 'Poppins', sans-serif;
+    color: #ff26b7;
 }
 
 .company {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
+    color: #fceaf7;
 }
 
 .first-half {
@@ -32,8 +25,69 @@
 }
 
 .cyber {
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 200px;
     line-height: .8;
+    margin-top: 2em;
+    margin-left: .4em;
+}
+
+.rs {
+    color: #ff26b7;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15em;
+    margin-right: 10em;
+}
+
+.gg-add {
+    color: #ff26b7;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+
+.grey {
+    display: flex;
+    font-size: 20px;
+    line-height: .5;
+    color: grey;
+    justify-content: flex-end;
+    font-style: italic;
+}
+
+body {
+    background-image: url("/img/neon-girl-underlay.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+}
+
+.neon-girl {
+    position: fixed;
+    z-index: -100;
+    height: 100%;
+    width: 100%;
+}
+
+.cursor {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    margin-left: -20px;
+    margin-top: -20px;
+    border-radius: 50%;
+    border: 2px solid #ff26b7;
+    transition: transform .2s ease;
+    transform-origin: center center;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.grow {
+    background: white;
+    mix-blend-mode: difference;
+    border: none;
 }
 

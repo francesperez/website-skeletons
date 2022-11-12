@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="cursor-scale">
+
 <!--Navbar-->
-<header>
     <nav class="navbar navbar-expand-lg" style="margin:3em;" >
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -23,25 +23,51 @@
             <div class="company"> Cyber </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">home</a>
-                <a class="nav-link text-nowrap" href="#">about me</a>
-                <a class="nav-link" href="#">albums</a>
-                <a class="nav-link">contact</a>
-                <a class="nav-link btn-search"></a>
+            <div class="navbar-nav" >
+                <a class="nav-link active" style="color:#fceaf7" aria-current="page" href="#">home</a>
+                <a class="nav-link text-nowrap" style="color:#fceaf7" href="#">about me</a>
+                <a class="nav-link" href="#" style="color:#fceaf7">albums</a>
+                <a class="nav-link" style="color:#fceaf7">contact</a>
+                <a class="nav-link btn-search" style="color:#fceaf7"> <i class="gg-search"></i></a>
             </div>
         </div>
     </nav>
-</header>
 
-<!--BODY OF PAGE-->
-<section>
-    <div class="cyber">
-        <span class="first-half">CYBER <br>NA<span class="half">OMI</span></span>
-    </div>
 
-</section>
+<div class="row">
+<!----------------------------LEFT SIDE OF PAGE---------------------------->
+<div class="col">
+    <section>
+        <div class="cyber">
+            <span class="first-half">CYBER <br>SP<span class="half">ACE.</span></span>
 
+        </div>
+    </section>
+</div>
+    <!-----------------------------RIGHT SIDE OF PAGE-------------------------->
+<div class="col">
+    <section>
+        <div class="rs text-nowrap">
+            <i class="gg-add"></i>
+            <span>FULL PHOTO SESSION<br><span class="grey">includes 35 photo/3 video</span></span>
+        </div>
+        <div>
+        </div>
+    </section>
+</div>
+</div>
+
+<!--------------------------------BACKGROUND IMAGE------------------------------->
+<div class="cursor grow"></div>
+
+
+
+
+
+
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="../js/cyber.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>
