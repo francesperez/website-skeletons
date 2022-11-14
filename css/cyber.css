@@ -5,9 +5,22 @@
     margin-top: 7px;
 }
 
-.navbar-nav, .rs {
+.navbar-nav, .rs, .formbg {
     font-family: 'Poppins', sans-serif;
     color: #ff26b7;
+}
+
+.nav-link::after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #ff26b7;
+    transition: 0.4s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
 }
 
 .company {
@@ -78,21 +91,22 @@ body {
     margin-left: -20px;
     margin-top: -20px;
     /*border-radius: 50%;*/
-    border: 2px solid #ff26b7;
     transition: transform .2s ease;
     transform-origin: center center;
     pointer-events: none;
     z-index: 1000;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
+    background: #ff6200;
+    mix-blend-mode: color;
 }
 
-.grow {
-    background: #ff26b7;
-    mix-blend-mode: color;
-    border: none;
+.formbg {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    color: #fceaf7;
+    margin-top: 5px;
+    margin-right: 20px;
 }
 

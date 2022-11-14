@@ -29,3 +29,7 @@ cursorScale.forEach(link => {
         cursor.classList.add('grow');
     })
 })
+
+$("#color").on("input" , function(e){
+    $(".cursor").css("background", $('#color').val());
+});
