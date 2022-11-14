@@ -18,11 +18,13 @@ a{
 }
 h1{
     position: fixed;
+    color: #E1E1E122;
     top: 30%;
     left: 25%;
     font-size: 15em;
     background-color: #01021e22;
     backdrop-filter: blur(1.5px);
+    box-shadow: 0 0 5px 10px #01021e22;
 
 }
 navbar{

@@ -1,0 +1,180 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #010034 ;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.main-imgs--stacked{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.main-img--overlay{ 
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 140vh;
+    z-index: 0;
+    object-fit: cover;
+
+}
+
+.main-img--underlay{
+    position:absolute;
+    float: left;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 140vh;
+    z-index: -1;
+}
+
+.main-text{
+    position: absolute;
+    top: 48vh;
+    left: 10vw;
+    font-size: 7rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    animation: fadeIn 5s;
+    opacity: 0.80;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 0.80; }
+  }
+
+  nav{
+    padding: 40px 50px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+  }
+
+.signin-section--ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+  }
+  
+  .signin-section--ul li{
+    color: white;
+  }
+  .login-button{
+    border-radius: 10px;
+    padding: 8px 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: .85em;
+  }
+  #login{
+    background-color: #FA18C0;
+    border: #FA18C0 2px solid;
+    
+  }
+  #signup{
+    background-color: #00000000;
+    border: #0471FF 2px solid;
+    color: white;
+    
+  }
+  .cursor{
+    z-index: 8;
+    position: relative;
+    width: 250px; 
+    height: 250px;
+    background-color: #FA18C0;
+    content: '';
+    transform: rotateX(45deg) rotateZ(45deg);
+    mix-blend-mode: color;
+  }
+
+  .effect{
+    background-color: #FA18C0;
+    mix-blend-mode: color;
+
+  }
+
+  .nav-section--page ul{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    list-style-type: none;
+    
+  }
+  .nav-section--page ul li{
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: #ffffffbb;
+  }
+
+  #icon{
+    font-size: 2.32em;
+    margin-right: 1em;
+  }
+  .footer-sm--links{
+    display: flex;
+    padding: 2em;
+  }
+ .footer-sm--links svg{
+    z-index: 10;
+   
+    margin-right: 20px;
+    fill: aliceblue;
+    fill-opacity: 0.2;
+    width: 50px;
+    height: auto;
+ }
+ 
+ footer{
+width: 100vw; 
+position: fixed; 
+bottom: 0; 
+left: 0; 
+background-color: #00000000;
+ }
+.nav-section--page{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+ .nav-section--page svg{
+    z-index: 10;
+    margin-left: 10px;
+    fill: #FA18C0;
+
+ }
+
+ .main-header{
+    z-index: 10;
+    color: white;
+    position: fixed;
+    top: 30vh;
+    left: 10vw;
+    font-size: 5em;
+ }
+ .main-header--color{
+    color: #FA18C0bb;
+ }
