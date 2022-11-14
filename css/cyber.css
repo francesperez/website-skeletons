@@ -77,17 +77,22 @@ body {
     height: 200px;
     margin-left: -20px;
     margin-top: -20px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     border: 2px solid #ff26b7;
     transition: transform .2s ease;
     transform-origin: center center;
     pointer-events: none;
     z-index: 1000;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 .grow {
-    background: white;
-    mix-blend-mode: difference;
+    background: #ff26b7;
+    mix-blend-mode: color;
     border: none;
 }
 
