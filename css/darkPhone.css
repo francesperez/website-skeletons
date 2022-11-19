@@ -1,0 +1,44 @@
+.header{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 5em;
+}
+.subtext {
+    margin-left: 1em;
+}
+
+.shopnow {
+    background-color: #8758e6;
+    color: #0c0d15;
+    width: 100%;
+    border-radius: 15px;
+    padding: 30px
+}
+.shopnow:hover {
+    background-color: #F8EEE2;
+    color: #212121
+}
+
+
+.learnmore {
+    border-color: #212121;
+    background-color: #F8EEE2;
+    color: #212121;
+    width: 100%;
+    border-radius: 15px;
+    padding: 30px
+}
+
+.learnmore:hover {
+    background-color: #212121;
+    color: #F8EEE2
+}
+
+.iframe {
+    height: 60em;
+}
