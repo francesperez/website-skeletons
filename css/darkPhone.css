@@ -1,42 +1,74 @@
+.bg {
+    background-color: #0c0d13;
+    background-image: url("/img/FoggyBG.JPG");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+
 .header{
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 90px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    font-size: 80px;
+    text-align: center;
     color: white;
     margin-bottom: 30px;
     margin-top: 5em;
 }
 .subtext {
-    margin-left: 1em;
+    color: #85848f;
+    text-align: center;
 }
+
+/*.shopnow {*/
+/*    background-color: #8758e6;*/
+/*    color: #0c0d15;*/
+/*    width: 100%;*/
+/*    border-radius: 15px;*/
+/*    padding: 30px*/
+/*}*/
 
 .shopnow {
-    background-color: #8758e6;
-    color: #0c0d15;
+    position: relative;
+    display: block;
     width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #8758e6;
     border-radius: 15px;
-    padding: 30px
+    font-size: 30px;
+    color: #ffffff;
+    transition: .5s;
 }
+
+.shopnow::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 19px;
+    width: 92%;
+    height: 97%;
+    border-radius: 15px;
+    background: #d5c3ff;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+
+.shopnow:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #d5c3ff;
+}
+
 .shopnow:hover {
-    background-color: #F8EEE2;
-    color: #212121
-}
-
-
-.learnmore {
-    border-color: #212121;
-    background-color: #F8EEE2;
-    color: #212121;
-    width: 100%;
-    border-radius: 15px;
-    padding: 30px
-}
-
-.learnmore:hover {
-    background-color: #212121;
-    color: #F8EEE2
+    color: #d5c3ff;
+    box-shadow: 0 0 20px #d5c3ff;
+    text-shadow: 0 0 20px #d5c3ff;
 }
 
 .iframe {
