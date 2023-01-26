@@ -26,7 +26,7 @@
 .company {
     font-family: 'Playfair Display', serif;
     font-size: 30px;
-    color: #fceaf7;
+    color: #f5a4de;
 }
 
 .first-half {
@@ -34,14 +34,14 @@
 }
 
 .half {
-    color: #2f2fff;
+    color: #00ff57;
 }
 
 .cyber {
     font-family: 'Playfair Display', serif;
     font-size: 200px;
     line-height: .8;
-    margin-top: 2em;
+    margin-top: 1.2em;
     margin-left: .4em;
 }
 
